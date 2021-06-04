@@ -22,15 +22,15 @@ import lombok.NoArgsConstructor;
 public class JobSeeker extends User{
 	
 	@Column(name="first_name")
-	private String first_name;
+	private String firstName;
 	
 	@Column(name="last_name")
-	private String last_name;
+	private String lastName;
 	
 	@Column(name="nationality_identity_number")
-	private String nationality_identity_number;
+	private String nationalityIdentityNumber;
 	
 	@Column(name="birth_of_date")
-	private Date birth_of_date;
+	private Date birthOfDate;
 	
 }

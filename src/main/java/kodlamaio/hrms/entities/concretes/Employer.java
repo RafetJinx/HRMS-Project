@@ -20,15 +20,15 @@ import lombok.NoArgsConstructor;
 public class Employer extends User{
 	
 	@Column(name="campany_name")
-	private String company_name;
+	private String companyName;
 	
 	@Column(name="website_adress")
-	private String website_adress;
+	private String websiteAdress;
 	
 	@Column(name="domain_website_adress_mail")
-	private String domain_website_adress_mail;
+	private String domainWebsiteAdressMail;
 	
 	@Column(name="phone_number")
-	private String phone_number;
+	private String phoneNumber;
 
 }
